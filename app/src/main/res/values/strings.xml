@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EdgeBlock</string>
+
+    <string name="permission_ment">To use this app, You must grant permission.</string>
+
+    <string name="main_title">EdgeBlock</string>
+    <string name="main_description">I happened to know that \nthe edge part sucks in \n\'Samsung Edge Screen\'!\n\n
+    So this app will deactivate \nthe either side of the screen.</string>
+    <string name="main_switch_text">On / Off </string>
+</resources>

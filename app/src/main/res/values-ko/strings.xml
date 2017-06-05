@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EdgeBlock</string>
+
+    <string name="permission_ment">권한을 허용하셔야지만 이 앱을 사용하실 수 있습니다.</string>
+
+    <string name="main_title">EdgeBlock</string>
+    <string name="main_description">
+        삼성 갤럭시 엣지 스크린의 불편함!\n
+        화면 가장자리가 자꾸 손에 닿아서\n터치되는게 아주 x같습니다.\n
+        이 앱은 화면 가장자리 터치를 막아줍니다.
+    </string>
+    <string name="main_switch_text">켜기 / 끄기 </string>
+</resources>

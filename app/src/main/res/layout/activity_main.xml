@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBg"
+    tools:context="com.edgeblock.edgeblock.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/main_img"
+        android:layout_marginBottom="49dp"
+        android:layout_above="@+id/main_title"
+        android:layout_alignEnd="@+id/main_description" />
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/main_title"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="@string/main_description"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_below="@+id/main_title"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:id="@+id/main_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_switch_text"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/main_description"
+        android:layout_alignEnd="@+id/main_title" />
+</RelativeLayout>
