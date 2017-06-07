@@ -9,5 +9,5 @@
     <string name="main_switch_text">On / Off </string>
 
     <string name="noti_title">EdgeBlock</string>
-    <string name="noti_content">Edge Screen deactivated.</string>
+    <string name="noti_content">Edge Screen touch deactivated.</string>
 </resources>

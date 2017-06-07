@@ -13,5 +13,5 @@
     <string name="main_switch_text">켜기 / 끄기 </string>
 
     <string name="noti_title">EdgeBlock</string>
-    <string name="noti_content">Edge Screen deactivated.</string>
+    <string name="noti_content">Edge Screen touch deactivated.</string>
 </resources>
