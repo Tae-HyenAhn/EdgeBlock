@@ -11,4 +11,7 @@
         이 앱은 화면 가장자리 터치를 막아줍니다.
     </string>
     <string name="main_switch_text">켜기 / 끄기 </string>
+
+    <string name="noti_title">EdgeBlock</string>
+    <string name="noti_content">Edge Screen deactivated.</string>
 </resources>

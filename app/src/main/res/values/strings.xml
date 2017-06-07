@@ -7,4 +7,7 @@
     <string name="main_description">I happened to know that \nthe edge part sucks in \n\'Samsung Edge Screen\'!\n\n
     So this app will deactivate \nthe either side of the screen.</string>
     <string name="main_switch_text">On / Off </string>
+
+    <string name="noti_title">EdgeBlock</string>
+    <string name="noti_content">Edge Screen deactivated.</string>
 </resources>

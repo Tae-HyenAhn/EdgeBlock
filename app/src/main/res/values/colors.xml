@@ -6,4 +6,5 @@
 
     <color name="colorMainBg">#f0a32f</color>
     <color name="colorTempBox">#4CB2D4</color>
+    <color name="colorEdge">#fa4545</color>
 </resources>

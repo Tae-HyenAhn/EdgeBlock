@@ -49,4 +49,24 @@
         android:layout_marginTop="30dp"
         android:layout_below="@+id/main_description"
         android:layout_alignEnd="@+id/main_title" />
+
+    <LinearLayout
+        android:id="@+id/main_edge_left"
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorEdge"
+        android:orientation="horizontal"
+        android:visibility="gone"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_edge_right"
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorEdge"
+        android:orientation="horizontal"
+        android:visibility="gone"></LinearLayout>
 </RelativeLayout>
