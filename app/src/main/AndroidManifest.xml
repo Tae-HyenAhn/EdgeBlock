@@ -29,6 +29,9 @@
             android:name=".BlockingService"
             android:enabled="true"
             android:exported="true"></service>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="626aa959fb918a10c1a6a1700420137aa1fc3b50" />
     </application>
 
 </manifest>

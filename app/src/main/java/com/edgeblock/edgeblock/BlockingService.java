@@ -47,7 +47,6 @@ public class BlockingService extends Service {
     public void onCreate() {
         super.onCreate();
 
-        DisplayMetrics dm = getResources().getDisplayMetrics();
         int areaWidth = getBlockWidth();
 
         final WindowManager.LayoutParams mParamsLeft = new WindowManager.LayoutParams(
@@ -83,7 +82,7 @@ public class BlockingService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        turnOnNotification();
+        initNotification();
         //서비스를 죽지 않도록 하기 위해 foreground 실행
         startForeground(NOTI_CODE, noti);
 
@@ -119,7 +118,7 @@ public class BlockingService extends Service {
     /**
      * Notificationn 설정
      */
-    private void turnOnNotification(){
+    private void initNotification(){
 
         intent = new Intent(getApplicationContext(), MainActivity.class);
         pIntent = PendingIntent.getActivity(getApplicationContext(), 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
